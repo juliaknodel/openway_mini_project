@@ -102,7 +102,7 @@ def main_func(print_res=True):
 
     if print_res:
         print('a, b, c, d = ', *data)
-        print('(a + b)/(c+d) = ', res['res'])
+        print('(a + b)/(c + d) = ', res['res'])
 
     return data, res['res']
 
